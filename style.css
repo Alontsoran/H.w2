@@ -1,14 +1,15 @@
 html {
     scroll-behavior: smooth;
-    background-color: rgb(243, 242, 218);
+   
 }
 .menu {
     text-align: center;
     align-items: center;
-    background: rgb(243, 242, 218);
+    background-color: #2636ad9b;
     display: flex;
     flex-direction: row;
     justify-content: center; 
+   
   
    
 }
@@ -29,37 +30,87 @@ html {
     font-family: Figtree,Verdana,sans-serif;
 }
 .menuicons{
-    height: 30px;
+    height: 40px;
+    margin: 20px;
+    border-radius:10px;
+   
 
 }
-#Section_homepage1{
-    display: flex;
+.divhomepageright{
+    
+    background-color: rgba(255, 255, 255, 0.532);
+    border: 3px white solid;
+    
+    
+}
+.homepage_section_1{
     background-color: rgb(184, 223, 122);
-    width: fit-content;
-    flex-direction: row;
+    
+   
     margin: 2%;
     border: 10px solid;
-    float:left;
     font-size: 25px;
+    justify-content: center; 
 }
-#Section_homepage2{
+#Hi{
+    font-size: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#psection{
+ color:red;
+}
+.divhomepageright>span{
+    color: red;
+}
+.buttons{
     display: flex;
-    background-color: rgb(184, 223, 122);
-    width: fit-content;
     flex-direction: row;
-    margin: 2%;
+    margin-top: 20px;
+    
+}
+.buttons>div{
     border: 10px solid;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: #e71d36;
+    border-radius: 0px 0px 0px 0px;
+    padding: 23px 0px 21px 0px;
+   width:1000px;
+   align-items: center; 
+   display: flex;
+   justify-content: center
+}
+section>span{
+    color:#e71d36;
+}
+.boxs{
+    
+   
+   justify-self: auto;
+   justify-content: center;
+}
+.boxs1{
+    display: flex;
+    flex-direction: column;
     float: left;
+    justify-content: center;
+    width: fit-content; 
 }
-#Skills{
+.boxs2{
     display: flex;
-    background-color: rgb(184, 223, 122);
-    width: fit-content;
-    flex-direction: row;
-    margin: 2%;
-    border: 10px solid;
-    float:right;
+    flex-direction: column;
+    float: right;
+    
+    width: fit-content;  
 }
-#Section_homepage1>p>b{
-    color: chocolate;
+.boxs1>div{
+    margin: 10px;
+     display:flex;
+     flex-direction: row;
+    border-radius: 0px 0px 0px 0px;
+    padding: 23px 0px 21px 0px;
+}
+#imageicons{
+    width: 100px;
+    margin:10px;
 }
