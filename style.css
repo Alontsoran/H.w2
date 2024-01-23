@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(243, 242, 218);
+}
+.menu {
+    text-align: center;
+    align-items: center;
+    background: rgb(243, 242, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+  
+   
+}
+.link {
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    align-items: center; 
+    font-size: x-large;
+}
+.link>a{
+    font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: larger;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menuicons{
+    height: 30px;
+
+}
