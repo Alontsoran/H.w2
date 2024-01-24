@@ -1,11 +1,11 @@
 html {
     scroll-behavior: smooth;
-   
+   background-color:rgba(53, 59, 6, 0.346)
 }
 .menu {
     text-align: center;
     align-items: center;
-    background-color: #2636ad9b;
+    background-color: #e05858;
     display: flex;
     flex-direction: row;
     justify-content: center; 
@@ -22,42 +22,34 @@ html {
 }
 .link>a{
     font-size: small;
-  font-family: Figtree,Verdana,sans-serif;
+  font-family:fantasy;
   color: black;
   font-size: larger;
 }
 *{
-    font-family: Figtree,Verdana,sans-serif;
-}
+    font-family:fantasy;}
 .menuicons{
     height: 40px;
     margin: 20px;
     border-radius:10px;
+
    
 
 }
 .divhomepageright{
     
-    background-color: rgba(255, 255, 255, 0.532);
-    border: 3px white solid;
+    
+    display: flex;
+    width: fit-content;
     
     
-}
-.homepage_section_1{
-    background-color: rgb(184, 223, 122);
-    
-   
-    margin: 2%;
-    border: 10px solid;
-    font-size: 25px;
-    justify-content: center; 
 }
 #Hi{
     font-size: 120px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    font-family:fantasy;}
 #psection{
  color:red;
+ font-size: 44px;
 }
 .divhomepageright>span{
     color: red;
@@ -72,38 +64,55 @@ html {
     border: 10px solid;
     font-size: 19px;
     font-weight: 500;
-    background-color: #e71d36;
+    background-color: #e05858;
     border-radius: 0px 0px 0px 0px;
     padding: 23px 0px 21px 0px;
    width:1000px;
+   
    align-items: center; 
    display: flex;
    justify-content: center
 }
+.buttons>div>a{
+    color: rgb(0, 0, 0);
+}
 section>span{
     color:#e71d36;
+    font-size:45px;
 }
-.boxs{
+.boxs_homepage{
     
    
    justify-self: auto;
    justify-content: center;
 }
-.boxs1{
+.boxs_homepage1{
     display: flex;
     flex-direction: column;
     float: left;
     justify-content: center;
     width: fit-content; 
 }
+.boxs1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: fit-content;  
+}
+.boxs1>div{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: fit-content;  
+    padding: 23px 0px 21px 0px;
+}
 .boxs2{
     display: flex;
     flex-direction: column;
     float: right;
-    
     width: fit-content;  
 }
-.boxs1>div{
+.boxs_homepage1>div{
     margin: 10px;
      display:flex;
      flex-direction: row;
@@ -114,3 +123,87 @@ section>span{
     width: 100px;
     margin:10px;
 }
+#homepage_section_1{
+    background-image: url(/Photos/peakpx.jpg);
+  }
+  .boxproject{
+    border:solid 12px;
+    margin: 16px;
+    justify-content: center;
+  }
+  .boxsprojects{
+    display: flex;
+    width: fit-content; 
+    justify-self: auto;
+    justify-content: center;
+    flex-direction: row;  }
+  .boxproject>img{
+    height: 300px;
+    width: 420px;
+  }
+.divhomepageright>div>img{
+    margin-top: 10px;
+    height: 550px;
+    border-radius: 100px;
+    border: solid 10px;
+    display:block;
+}
+.section_project1{
+background-color: ;
+}
+@media  screen and (max-width: 700px) {
+    .divhomepageright{
+     flex-direction:column;
+    }
+    .divhomepageright>div>img{
+        margin-left: 20px;
+        margin-top: 0px;
+        height: 500px;
+        border-radius: 5000px;
+    }
+      .boxproject{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .boxsprojects{
+        width: fit-content; 
+        justify-self: auto;
+        justify-content: center;
+        flex-direction: column;  } 
+        
+  }
+  @media screen and (max-width: 700px) {
+    .menu {
+        text-align: center;
+        align-items: center;
+        background-color: #e05858;
+        display: block;
+        flex-direction: column;
+        justify-content: center; 
+       overflow: hidden;
+       color: black;
+       text-align: center;
+       padding: 14px 16px;
+    }
+  .navbar {
+    background-color: #e05858;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  }
+  
