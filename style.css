@@ -1,11 +1,11 @@
 html {
     scroll-behavior: smooth;
-   background-color:rgb(212, 222, 201)
+   background-color:rgba(206, 185, 99, 0.294)
 }
 .menu {
     text-align: center;
     align-items: center;
-    background-color: rgb(212, 222, 201);
+    background-color: rgb(97, 100, 94);
     display: flex;
     flex-direction: row;
    border-radius: 10px;
@@ -13,14 +13,7 @@ html {
    z-index: 10;
 }
 .link {
-    width: fit-content;
-    margin: 10px;
-    display: flex;
-    align-items: center; 
-    font-size: x-large;
-    
-    
-    
+    display: block; 
 }
 #aboutme{
     font-size: 25px;
@@ -30,6 +23,8 @@ html {
   font-family:fantasy;
   color: black;
   font-size: 40px;
+  border-left: solid 5px;
+  text-decoration:none
 }
 *{
     font-family:fantasy;}
@@ -88,30 +83,24 @@ section>span{
 }
 .boxs_homepage1{
     display: flex;
-    flex-direction: column;
-    float: left;
+    flex-wrap: wrap;
     justify-content: center;
     width: fit-content; 
 }
 .boxs1{
     display: flex;
     flex-direction: column;
-    float: left;
     width: fit-content;  
 }
 .boxs1>div{
     display: flex;
     flex-direction: row;
-    float: right;
     width: fit-content;  
-    padding: 23px 0px 21px 0px;
-    margin:10px;
     font-size: 25px;
 }
 .boxs2{
     display: flex;
     flex-direction: column;
-    float: right;
     width: fit-content;  
 }
 
@@ -120,8 +109,9 @@ section>span{
      display:flex;
      flex-direction: row;
     border-radius: 0px 0px 0px 0px;
-    padding: 23px 0px 21px 0px;
-    font-size: 25px;
+    max-width: 513.45px;
+    
+    font-size: 20px;
 }
 #imageicons{
     width: 100px;
@@ -175,17 +165,17 @@ section>span{
         flex-direction: column;  } 
         .menu {
             background-color: #49b893;
-            display: block;
+            display: flex;
             flex-direction: column;
-            float: left;
-           overflow: hidden;
            padding: 14px 16px;
-           border: solid 5px;
+           border: solid 5px white;
           z-index: 1;
           position: absolute;
+          width: 150px;
         }
         .menu2{
-            flex: auto;
+            display:flex;
+            flex-wrap: wrap;
             background-color: #49b8936d;
           }
           #NAVbar{
@@ -193,21 +183,41 @@ section>span{
             height: 100px;
             width: 60px;
           }
-          .link>a{
+        .link {
+            display: block; 
+            width:75px;
+            padding-right: 60px;
+            padding-bottom: 10px;
+        }
+        #aboutme{
+            font-size: 25px;
+            
+        }
+        .link>a{
+            font-size: small;
+          font-family:fantasy;
+          color: black;
+          font-size: 40px;
+          border-left: solid 5px;
+          text-decoration:none;
           font-size: 30px;
+          
+          
         }
   }
-  .menu2{
-    flex: auto;
-   background-color: #49b8936d;
-   border-top: solid 5px;
-   border-left:  solid 5px;
-   border-right:  solid 5px;
-   border-radius: 10px;
-  }
+
   #NAVbar{
     display: block;
     height: 60px;
     width: 60px;
     
+  }
+  .footers{
+  float: inherit;
+  }
+  .menu2{
+   display:flex;
+   flex-wrap: wrap;
+   background-color: #ffffff;
+   border-radius: 25px;
   }
