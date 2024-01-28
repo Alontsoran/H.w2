@@ -148,7 +148,7 @@ color:azure;
   }
 .divhomepageright>div>img{
     margin-top: 10px;
-    height: 550px;
+    height: 600px;
     border-radius: 100px;
     border: solid 10px;
     display:block;
@@ -158,11 +158,21 @@ color:azure;
     .divhomepageright{
      flex-direction:column;
     }
+  
     .divhomepageright>div>img{
         margin-left: 20px;
         margin-top: 0px;
         height: 500px;
         border-radius: 5000px;
+        width: 300px;
+
+    }
+    .Footer a{
+        color:white;
+        list-style-type: none;
+        text-decoration:none;
+        font-size: 25px;
+        
     }
       .boxproject{
         display: flex;
