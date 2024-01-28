@@ -7,24 +7,28 @@
     <title>Alon Tsoran</title>
 </head>
 <header>
-    <script>
-        function toggleNavigation() {
-            var menu = document.querySelector('.menu');
-            menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
-        }
-    </script>
-    
-    <nav class="menu2">
-        <img id="NAVbar" src="./Photos/homepage.png" alt="Click me" onclick="toggleNavigation()">
-
-    </nav>    <nav class="menu">
-        <li class="link"><a href="./index.html">Homepage</a>
-            <li class="link"><a href="./about.html">About</a>
-                <li class="link"><a href="./Resume.html">Resume</a>
-                    <li class="link"><a href="./Projects.html">Projects</a>
-    </nav> 
+    <script src="Script.js"></script>
+    <nav id="navbar2">
+         <div class="menu2">
+                 <li class="link"><a href="./index.html" class="nav-link">Homepage</a></li>
+                 <li class="link"><a href="./about.html" class="nav-link">About</a></li>
+                 <li class="link"><a href="./Resume.html" class="nav-link">Resume</a></li>
+                 <li class="link"><a href="./Projects.html" class="nav-link">Projects</a></li>
+         </div>
+     </nav>
+    <nav id="navbar">
+       <li class="link"><img id="menuPhoto" src="./Photos/homepage.png" alt="Click me" onclick="toggleNavigation()"></li> 
+        <div class="menu">
+                <li class="link"><a href="./index.html" class="nav-link">Homepage</a></li>
+                <li class="link"><a href="./about.html" class="nav-link">About</a></li>
+                <li class="link"><a href="./Resume.html" class="nav-link">Resume</a></li>
+                <li class="link"><a href="./Projects.html" class="nav-link">Projects</a></li>
+        </div>
+    </nav>
 </header>
 <body>
+    <br><br>
+    <h1 id="h1s">My Projects</h1>
     <section class ="section_project1">
         <div class="boxsprojects">
         
@@ -65,12 +69,21 @@
 
 </body>
 <footer>
-</nav>
-<nav class="menu2">
-    <li class="link"><a href="./index.html">Homepage</a>
-        <li class="link"><a href="./about.html">About</a>
-            <li class="link"><a href="./Resume.html">Resume</a>
-                <li class="link"><a href="./Projects.html">Projects</a>
-</nav> 
-</footer>
+    <div id="Fotter_left">
+         <nav class="Footer">
+        <li><a href="./index.html">Homepage</a></li>
+            <li><a href="./about.html">About</a></li>
+                <li><a href="./Resume.html">Resume</a></li>
+                    <li ><a href="./Projects.html">Projects</a></li>
+    </nav> 
+</div>
+<div id="Fotter_right">
+    <nav class="Footer">
+            <li><a href="mailto:alontsoranschool@gmail.com">My Email - Alon</a></li>
+            <li><a href="tel:+972544871731">+972544871731</a></li>
+      <li ><img id="Linkdin"src="./Photos/linkedin-svgrepo-com.png" alt="Linkdin"></li>
+    </nav> 
+</div>
+   
+    </footer>
 </html>

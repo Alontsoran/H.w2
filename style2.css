@@ -2,8 +2,11 @@
 html{
   background-color:rgba(53, 59, 6, 0.346);
   font-size: 20px;
+  
 }
-
+#navbar{
+  z-index: 2;
+}
 *::before,
 *::after {
   margin: 0;
@@ -17,8 +20,8 @@ body {
   min-height: 100vh;
   display: grid;
   align-content: center;
-  gap: 2rem;
-  padding: 2rem;
+ 
+  
   font-family: "Poppins", sans-serif;
   color: var(--color);
   background: var(--bgColor);
@@ -26,9 +29,12 @@ body {
 
 h1 {
   text-align: center;
+  margin: 100px;
+  font-size: 55px;
 }
 
 ul {
+  margin: 100px;
   --col-gap: 2rem;
   --row-gap: 2rem;
   --line-w: 0.25rem;
@@ -39,6 +45,7 @@ ul {
   list-style: none;
   width: min(60rem, 90%);
   margin-inline: auto;
+  z-index: 0;
 }
 ul::before {
   content: "";
