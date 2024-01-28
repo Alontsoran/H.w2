@@ -1,0 +1,1 @@
+const Downloadresume=document.getElementById("re");

@@ -10,7 +10,7 @@ html {
     flex-direction: row;
    border-radius: 10px;
    border: solid 5px;
-   
+   z-index: 10;
 }
 .link {
     width: fit-content;
@@ -22,11 +22,14 @@ html {
     
     
 }
+#aboutme{
+    font-size: 25px;
+}
 .link>a{
     font-size: small;
   font-family:fantasy;
   color: black;
-  font-size: larger;
+  font-size: 40px;
 }
 *{
     font-family:fantasy;}
@@ -73,6 +76,7 @@ color:azure;
 }
 .buttons>div>a{
     color: rgb(255, 253, 253);
+    font-size:22px;
 }
 section>span{
     color:#e71d36;
@@ -101,7 +105,8 @@ section>span{
     float: right;
     width: fit-content;  
     padding: 23px 0px 21px 0px;
-    margin:10px
+    margin:10px;
+    font-size: 25px;
 }
 .boxs2{
     display: flex;
@@ -109,12 +114,14 @@ section>span{
     float: right;
     width: fit-content;  
 }
+
 .boxs_homepage1>div{
     margin: 10px;
      display:flex;
      flex-direction: row;
     border-radius: 0px 0px 0px 0px;
     padding: 23px 0px 21px 0px;
+    font-size: 25px;
 }
 #imageicons{
     width: 100px;
@@ -167,14 +174,15 @@ section>span{
         justify-content: center;
         flex-direction: column;  } 
         .menu {
-            background-color: #49b8936d;
+            background-color: #49b893;
             display: block;
             flex-direction: column;
-            justify-content: center; 
+            float: left;
            overflow: hidden;
-           text-align: center;
            padding: 14px 16px;
            border: solid 5px;
+          z-index: 1;
+          position: absolute;
         }
         .menu2{
             flex: auto;
@@ -185,6 +193,9 @@ section>span{
             height: 100px;
             width: 60px;
           }
+          .link>a{
+          font-size: 30px;
+        }
   }
   .menu2{
     flex: auto;
