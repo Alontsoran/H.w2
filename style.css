@@ -128,7 +128,7 @@ section>span{
     margin:10px;
 }
 #homepage_section_1{
-    background-image: url(/Photos/peakpx.jpg);
+    background-image: url(./Photos/peakpx.jpg);
   }
   .boxproject{
     border:solid 12px;
