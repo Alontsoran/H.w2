@@ -1,16 +1,16 @@
 html {
     scroll-behavior: smooth;
-   background-color:rgba(53, 59, 6, 0.346)
+   background-color:rgb(212, 222, 201)
 }
 .menu {
     text-align: center;
     align-items: center;
-    background-color: #e05858;
+    background-color: rgb(212, 222, 201);
     display: flex;
     flex-direction: row;
     justify-content: center; 
-   
-  
+   border-radius: 10px;
+   border: solid 5px;
    
 }
 .link {
@@ -32,23 +32,20 @@ html {
     height: 40px;
     margin: 20px;
     border-radius:10px;
-
-   
-
 }
 .divhomepageright{
     
     
     display: flex;
     width: fit-content;
-    
-    
 }
-#Hi{
+#myname{
     font-size: 120px;
-    font-family:fantasy;}
-#psection{
- color:red;
+    font-family:fantasy;
+color:azure;
+}
+#p_hIim{
+ color:rgb(255, 252, 252);
  font-size: 44px;
 }
 .divhomepageright>span{
@@ -61,28 +58,25 @@ html {
     
 }
 .buttons>div{
-    border: 10px solid;
+    border: 10px solid white;
     font-size: 19px;
     font-weight: 500;
-    background-color: #e05858;
+    background-color: rgb(0, 0, 0);
     border-radius: 0px 0px 0px 0px;
     padding: 23px 0px 21px 0px;
    width:1000px;
-   
    align-items: center; 
    display: flex;
-   justify-content: center
+   justify-content: center;
 }
 .buttons>div>a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
 }
 section>span{
     color:#e71d36;
     font-size:45px;
 }
 .boxs_homepage{
-    
-   
    justify-self: auto;
    justify-content: center;
 }
@@ -105,6 +99,7 @@ section>span{
     float: right;
     width: fit-content;  
     padding: 23px 0px 21px 0px;
+    margin:10px
 }
 .boxs2{
     display: flex;
@@ -148,9 +143,7 @@ section>span{
     border: solid 10px;
     display:block;
 }
-.section_project1{
-background-color: ;
-}
+
 @media  screen and (max-width: 700px) {
     .divhomepageright{
      flex-direction:column;
@@ -171,39 +164,37 @@ background-color: ;
         justify-self: auto;
         justify-content: center;
         flex-direction: column;  } 
-        
+        .menu {
+            background-color: #49b8936d;
+            display: block;
+            flex-direction: column;
+            justify-content: center; 
+           overflow: hidden;
+           text-align: center;
+           padding: 14px 16px;
+           border: solid 5px;
+        }
+        .menu2{
+            flex: auto;
+            background-color: #49b8936d;
+          }
+          #NAVbar{
+            display: block;
+            height: 100px;
+            width: 60px;
+          }
   }
-  @media screen and (max-width: 700px) {
-    .menu {
-        text-align: center;
-        align-items: center;
-        background-color: #e05858;
-        display: block;
-        flex-direction: column;
-        justify-content: center; 
-       overflow: hidden;
-       color: black;
-       text-align: center;
-       padding: 14px 16px;
-    }
-  .navbar {
-    background-color: #e05858;
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
+  .menu2{
+    flex: auto;
+   background-color: #49b8936d;
+   border-top: solid 5px;
+   border-left:  solid 5px;
+   border-right:  solid 5px;
+   border-radius: 10px;
+  }
+  #NAVbar{
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: larger;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
+    height: 60px;
+    width: 60px;
+    
   }
-  

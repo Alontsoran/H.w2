@@ -1,4 +1,8 @@
 
+html{
+  background-color:rgba(53, 59, 6, 0.346)
+}
+
 *::before,
 *::after {
   margin: 0;
@@ -7,8 +11,8 @@
 }
 
 body {
+  flex-direction: column;
   --color: rgba(30, 30, 30);
-  --bgColor: rgba(245, 245, 245);
   min-height: 100vh;
   display: grid;
   align-content: center;
