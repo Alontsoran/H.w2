@@ -135,13 +135,20 @@ color:azure;
     border:solid 12px;
     margin: 16px;
     justify-content: center;
+    width: fit-content;
+    height: 5
   }
   .boxsprojects{
     display: flex;
-    width: fit-content; 
-    justify-self: auto;
+    flex-wrap: wrap;
+    justify-self:auto;
     justify-content: center;
-    flex-direction: row;  }
+    flex-direction: row; 
+    font-size: 25px;
+    
+    
+
+}
   .boxproject>img{
     height: 300px;
     width: 420px;
@@ -177,6 +184,7 @@ color:azure;
       .boxproject{
         display: flex;
         flex-direction: column;
+        
       }
 
       .boxsprojects{
