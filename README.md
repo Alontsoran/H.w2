@@ -18,6 +18,6 @@ During the development of this website, I encountered a few challenges that help
 In the process of building this website, I experimented with and incorporated several new CSS properties to improve the overall design and layout:
 - **Media Queries**: Employed to apply specific styles based on different screen sizes for optimal responsiveness.
 
-
+You can watch a Pdf wifh full requests about this assignment 
 
 Happy exploring!
