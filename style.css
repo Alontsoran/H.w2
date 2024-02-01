@@ -71,7 +71,6 @@ color:azure;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    
 }
 .buttons>div{
     border: 10px solid white;
@@ -84,6 +83,9 @@ color:azure;
    align-items: center; 
    display: flex;
    justify-content: center;
+}
+.buttons>div:hover{
+    background-color: rgb(157, 158, 117);
 }
 .buttons>div>a{
     color: rgb(255, 253, 253);
@@ -123,6 +125,7 @@ color:azure;
      flex-direction: row;
     border-radius: 0px 0px 0px 0px;
     max-width: 513.45px;
+    position: relative;
     
     font-size: 20px;
 }
