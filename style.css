@@ -51,6 +51,7 @@ html {
 #homepage_section_1{
     background-image: url(./Photos/peakpx.jpg);
     padding-top: 100px;
+    
 }
 .divhomepageright{
     display: flex;
@@ -170,13 +171,15 @@ color:azure;
     .divhomepageright{
      flex-direction:column;
     }
-  
+    #homepage_section_1{
+        width: auto
+    }
     .divhomepageright>div>img{
         margin-left: 20px;
         margin-top: 0px;
-        height: 500px;
+        height: 450px;
         border-radius: 5000px;
-        width: 300px;
+        width: 250px;
 
     }
     .Footer a{
@@ -255,6 +258,12 @@ color:azure;
 }
 .section_project1{
     padding-top: 55px;
+}
+#myname{
+    font-size: 90px;
+}
+body{
+   width: auto;
 }
 }
 .section_project1{
