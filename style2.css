@@ -1,10 +1,8 @@
-
-html{
-  background-color:rgba(53, 59, 6, 0.346);
+html {
+  background-color: rgba(53, 59, 6, 0.346);
   font-size: 20px;
-  
 }
-#navbar{
+#navbar {
   z-index: 2;
 }
 *::before,
@@ -20,8 +18,7 @@ body {
   min-height: 100vh;
   display: grid;
   align-content: center;
- 
-  
+
   font-family: "Poppins", sans-serif;
   color: var(--color);
   background: var(--bgColor);
